@@ -580,10 +580,6 @@ address {
   gap: 24px;
 }
 
-.footer-span-btn {
-  line-height: 1;
-}
-
 .footer-input {
   display: block;
   border: 1px solid var(--white);
@@ -617,7 +613,7 @@ address {
   min-width: 165px;
   height: 40px;
   /* background: var(--iris); */
-  background-color: #4D5AE5
+  background-color: #4D5AE5;
   font-family: "Roboto", sans-serif
   font-weight: 500;
   font-size: 16px;
