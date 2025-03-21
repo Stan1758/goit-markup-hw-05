@@ -581,8 +581,7 @@ address {
 }
 
 .footer-span-btn {
-  display: flex;
-  align-items: center;
+  line-height: 1;
 }
 
 .footer-form-input {
@@ -625,8 +624,8 @@ address {
   background-color: #31d0aa;
 }
 /* #endregion Footer */
-/* #region Modal */
 
+/* #region Modal */
 .modal-overlay {
   background-color: var(--navy-blue-modal);
   position: fixed;
