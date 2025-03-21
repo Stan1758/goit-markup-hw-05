@@ -754,11 +754,13 @@ address {
 }
 
 .modal-label-accept {
+  display: inline-block;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16667;
   letter-spacing: 0.04em;
   color: var(--light-slate);
+  cursor: pointer;
 }
 
 .privacy-link {
@@ -771,6 +773,25 @@ address {
 .checkbox-wrapper {
   margin-top: 16px;
   margin-bottom: 24px;
+}
+
+.checkbox-input {
+  display: none;
+}
+
+.custom-checkbox {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  border-radius: 2px;
+  border: 1px solid var(--navy-blue-modal);
+  margin-right: 8px;
+}
+
+.checkbox-input:checked + .modal-label-accept > .custom-checkbox {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
 
 .modal-btn {
