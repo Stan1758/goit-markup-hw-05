@@ -622,10 +622,6 @@ address {
   transition: background-color var(--animation);
 }
 
-.icon-btn {
-  margin-left: 16px;
-}
-
 .footer-btn:hover,
 .footer-btn:focus {
   background-color: #31d0aa;
@@ -787,13 +783,8 @@ address {
   color: var(--navy-blue-modal);
 }
 
-/* .modal-textarea:focus {
-  border-color: #4D5AE5;
-} */
-
 .checkbox-wrapper {
   margin-bottom: 24px;
-  margin-top: 16px;
 }
 
 .modal-label-accept {
